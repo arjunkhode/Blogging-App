@@ -7,9 +7,11 @@ import App from './components/app';
 // slash means the first slash after .com or .net, etc.
 
 import PostsIndex from './components/posts_index';
+import PostsNew from './components/posts_new';
 
 export default(
   <Route path="/" component={App}>
     <IndexRoute component={PostsIndex} />
+    <Route path="posts/new" component={PostsNew} />
   </Route>
   );

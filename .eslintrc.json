@@ -10,7 +10,8 @@
                     "no-tabs":0,
                     "react/jsx-indent":0,
                     "react/prop-types":1,
-                    "indent":1
+                    "indent":1,
+                    "no-mixed-spaces-and-tabs":0
                 },
     "plugins": [
         "react",
